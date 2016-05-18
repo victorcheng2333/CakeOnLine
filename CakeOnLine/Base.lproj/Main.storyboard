@@ -19,7 +19,87 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="248.5" y="-5.5"/>
+            <point key="canvasLocation" x="-124.5" y="-148.5"/>
+        </scene>
+        <!--RecommendVC-->
+        <scene sceneID="MtA-wl-8YW">
+            <objects>
+                <viewController storyboardIdentifier="RecommendVC" id="eLO-oO-zav" customClass="RecommendVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H0t-MO-ahe"/>
+                        <viewControllerLayoutGuide type="bottom" id="lgD-tf-PTE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j6f-YT-IdD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PxE-vS-vkN"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2y-R2-lnQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778.5" y="-1330.5"/>
+        </scene>
+        <!--Cake MallVC-->
+        <scene sceneID="3Sw-M9-Qpc">
+            <objects>
+                <viewController storyboardIdentifier="CakeMallVC" id="jH5-BR-2zf" customClass="CakeMallVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HwO-xk-Org"/>
+                        <viewControllerLayoutGuide type="bottom" id="llO-s5-obM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mNF-EY-tZj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PGm-gE-la6"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNG-wF-ggX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="784.5" y="-585.5"/>
+        </scene>
+        <!--Shop CartVC-->
+        <scene sceneID="Y6P-4O-Khp">
+            <objects>
+                <viewController storyboardIdentifier="ShopCartVC" id="2WC-Ua-9Fq" customClass="ShopCartVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xYC-rh-pfb"/>
+                        <viewControllerLayoutGuide type="bottom" id="qqE-Pg-JZO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zaK-IP-dzJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qrq-hi-iun"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NqY-XG-z7M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="797.5" y="497.5"/>
+        </scene>
+        <!--User InfoVC-->
+        <scene sceneID="XcJ-C7-tRW">
+            <objects>
+                <viewController storyboardIdentifier="UserInfoVC" id="xOL-Th-cFm" customClass="UserInfoVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kjp-ic-7HW"/>
+                        <viewControllerLayoutGuide type="bottom" id="QdL-kb-NeL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zyJ-cE-D2o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0vd-mX-RvL"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="00Y-pK-pcn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="753.5" y="1433.5"/>
         </scene>
     </scenes>
 </document>
