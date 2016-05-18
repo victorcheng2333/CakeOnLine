@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  TabBarController.h
 //  CakeOnLine
 //
 //  Created by fei on 16/5/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface TabBarController : UITabBarController
 
 @end
-

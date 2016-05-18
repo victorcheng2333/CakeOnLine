@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		A5F888EC1CEC4A3D0006AD8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888EB1CEC4A3D0006AD8A /* main.m */; };
 		A5F888EF1CEC4A3D0006AD8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888EE1CEC4A3D0006AD8A /* AppDelegate.m */; };
-		A5F888F21CEC4A3D0006AD8A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888F11CEC4A3D0006AD8A /* FirstViewController.m */; };
-		A5F888F51CEC4A3D0006AD8A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888F41CEC4A3D0006AD8A /* SecondViewController.m */; };
 		A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F888F61CEC4A3D0006AD8A /* Main.storyboard */; };
 		A5F888FA1CEC4A3D0006AD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F888F91CEC4A3D0006AD8A /* Assets.xcassets */; };
 		A5F888FD1CEC4A3D0006AD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F888FB1CEC4A3D0006AD8A /* LaunchScreen.storyboard */; };
+		A5F8892F1CEC6D950006AD8A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F8892E1CEC6D950006AD8A /* TabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +20,12 @@
 		A5F888EB1CEC4A3D0006AD8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5F888ED1CEC4A3D0006AD8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5F888EE1CEC4A3D0006AD8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5F888F01CEC4A3D0006AD8A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		A5F888F11CEC4A3D0006AD8A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		A5F888F31CEC4A3D0006AD8A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		A5F888F41CEC4A3D0006AD8A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A5F888F71CEC4A3D0006AD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5F888F91CEC4A3D0006AD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F888FC1CEC4A3D0006AD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5F888FE1CEC4A3D0006AD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F8892D1CEC6D950006AD8A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		A5F8892E1CEC6D950006AD8A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +58,11 @@
 		A5F888E91CEC4A3D0006AD8A /* CakeOnLine */ = {
 			isa = PBXGroup;
 			children = (
+				A5F889301CEC6F3A0006AD8A /* classes */,
 				A5F888ED1CEC4A3D0006AD8A /* AppDelegate.h */,
 				A5F888EE1CEC4A3D0006AD8A /* AppDelegate.m */,
-				A5F888F01CEC4A3D0006AD8A /* FirstViewController.h */,
-				A5F888F11CEC4A3D0006AD8A /* FirstViewController.m */,
-				A5F888F31CEC4A3D0006AD8A /* SecondViewController.h */,
-				A5F888F41CEC4A3D0006AD8A /* SecondViewController.m */,
+				A5F8892D1CEC6D950006AD8A /* TabBarController.h */,
+				A5F8892E1CEC6D950006AD8A /* TabBarController.m */,
 				A5F888F61CEC4A3D0006AD8A /* Main.storyboard */,
 				A5F888F91CEC4A3D0006AD8A /* Assets.xcassets */,
 				A5F888FB1CEC4A3D0006AD8A /* LaunchScreen.storyboard */,
@@ -82,6 +78,141 @@
 				A5F888EB1CEC4A3D0006AD8A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5F889301CEC6F3A0006AD8A /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5F889311CEC6F3A0006AD8A /* 我的 */,
+				A5F889351CEC6F3A0006AD8A /* 精选 */,
+				A5F889391CEC6F3A0006AD8A /* 蛋糕商城 */,
+				A5F8893D1CEC6F3A0006AD8A /* 购物车 */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A5F889311CEC6F3A0006AD8A /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F889321CEC6F3A0006AD8A /* controller */,
+				A5F889331CEC6F3A0006AD8A /* model */,
+				A5F889341CEC6F3A0006AD8A /* view */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		A5F889321CEC6F3A0006AD8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A5F889331CEC6F3A0006AD8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A5F889341CEC6F3A0006AD8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A5F889351CEC6F3A0006AD8A /* 精选 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F889361CEC6F3A0006AD8A /* controller */,
+				A5F889371CEC6F3A0006AD8A /* model */,
+				A5F889381CEC6F3A0006AD8A /* view */,
+			);
+			path = "精选";
+			sourceTree = "<group>";
+		};
+		A5F889361CEC6F3A0006AD8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A5F889371CEC6F3A0006AD8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A5F889381CEC6F3A0006AD8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A5F889391CEC6F3A0006AD8A /* 蛋糕商城 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F8893A1CEC6F3A0006AD8A /* controller */,
+				A5F8893B1CEC6F3A0006AD8A /* model */,
+				A5F8893C1CEC6F3A0006AD8A /* view */,
+			);
+			path = "蛋糕商城";
+			sourceTree = "<group>";
+		};
+		A5F8893A1CEC6F3A0006AD8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A5F8893B1CEC6F3A0006AD8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A5F8893C1CEC6F3A0006AD8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A5F8893D1CEC6F3A0006AD8A /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F8893E1CEC6F3A0006AD8A /* controller */,
+				A5F8893F1CEC6F3A0006AD8A /* model */,
+				A5F889401CEC6F3A0006AD8A /* view */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		A5F8893E1CEC6F3A0006AD8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A5F8893F1CEC6F3A0006AD8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A5F889401CEC6F3A0006AD8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F888F51CEC4A3D0006AD8A /* SecondViewController.m in Sources */,
+				A5F8892F1CEC6D950006AD8A /* TabBarController.m in Sources */,
 				A5F888EF1CEC4A3D0006AD8A /* AppDelegate.m in Sources */,
-				A5F888F21CEC4A3D0006AD8A /* FirstViewController.m in Sources */,
 				A5F888EC1CEC4A3D0006AD8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +436,7 @@
 				A5F889031CEC4A3D0006AD8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
