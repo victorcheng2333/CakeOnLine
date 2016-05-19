@@ -19,6 +19,16 @@
 		5F4154481CECBDE800604E56 /* recommend_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F4154401CECBDE800604E56 /* recommend_select@2x.png */; };
 		5F4154491CECBDE800604E56 /* shopCart_unselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F4154411CECBDE800604E56 /* shopCart_unselect@2x.png */; };
 		5F41544A1CECBDE800604E56 /* shopCart_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F4154421CECBDE800604E56 /* shopCart_select@2x.png */; };
+		A50B556F1CED9AF200AA58D5 /* 冬日暖心@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A50B556A1CED9AF200AA58D5 /* 冬日暖心@2x.png */; };
+		A50B55701CED9AF200AA58D5 /* 奥利奥雪域芝士牛乳@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A50B556B1CED9AF200AA58D5 /* 奥利奥雪域芝士牛乳@2x.png */; };
+		A50B55711CED9AF200AA58D5 /* 恋上莓@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A50B556C1CED9AF200AA58D5 /* 恋上莓@2x.png */; };
+		A50B55721CED9AF200AA58D5 /* 极地牛乳@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A50B556D1CED9AF200AA58D5 /* 极地牛乳@2x.png */; };
+		A50B55731CED9AF200AA58D5 /* 金牌拿破仑@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A50B556E1CED9AF200AA58D5 /* 金牌拿破仑@2x.png */; };
+		A50B55761CED9E5900AA58D5 /* TypeOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B55751CED9E5900AA58D5 /* TypeOneCell.m */; };
+		A50B55791CED9E9B00AA58D5 /* TypeTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B55781CED9E9B00AA58D5 /* TypeTwoCell.m */; };
+		A50B557C1CED9EB000AA58D5 /* TypeThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B557B1CED9EB000AA58D5 /* TypeThreeCell.m */; };
+		A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE971CEDCE1100A2DE4E /* location@2x.png */; };
+		A597FE9A1CEDCE1100A2DE4E /* signIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE981CEDCE1100A2DE4E /* signIn@2x.png */; };
 		A5F888EC1CEC4A3D0006AD8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888EB1CEC4A3D0006AD8A /* main.m */; };
 		A5F888EF1CEC4A3D0006AD8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888EE1CEC4A3D0006AD8A /* AppDelegate.m */; };
 		A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F888F61CEC4A3D0006AD8A /* Main.storyboard */; };
@@ -45,6 +55,19 @@
 		5F4154411CECBDE800604E56 /* shopCart_unselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopCart_unselect@2x.png"; sourceTree = "<group>"; };
 		5F4154421CECBDE800604E56 /* shopCart_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopCart_select@2x.png"; sourceTree = "<group>"; };
 		5F41544D1CECC45300604E56 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		A50B556A1CED9AF200AA58D5 /* 冬日暖心@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冬日暖心@2x.png"; sourceTree = "<group>"; };
+		A50B556B1CED9AF200AA58D5 /* 奥利奥雪域芝士牛乳@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "奥利奥雪域芝士牛乳@2x.png"; sourceTree = "<group>"; };
+		A50B556C1CED9AF200AA58D5 /* 恋上莓@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "恋上莓@2x.png"; sourceTree = "<group>"; };
+		A50B556D1CED9AF200AA58D5 /* 极地牛乳@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "极地牛乳@2x.png"; sourceTree = "<group>"; };
+		A50B556E1CED9AF200AA58D5 /* 金牌拿破仑@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金牌拿破仑@2x.png"; sourceTree = "<group>"; };
+		A50B55741CED9E5900AA58D5 /* TypeOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeOneCell.h; sourceTree = "<group>"; };
+		A50B55751CED9E5900AA58D5 /* TypeOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeOneCell.m; sourceTree = "<group>"; };
+		A50B55771CED9E9B00AA58D5 /* TypeTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTwoCell.h; sourceTree = "<group>"; };
+		A50B55781CED9E9B00AA58D5 /* TypeTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTwoCell.m; sourceTree = "<group>"; };
+		A50B557A1CED9EB000AA58D5 /* TypeThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeThreeCell.h; sourceTree = "<group>"; };
+		A50B557B1CED9EB000AA58D5 /* TypeThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeThreeCell.m; sourceTree = "<group>"; };
+		A597FE971CEDCE1100A2DE4E /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		A597FE981CEDCE1100A2DE4E /* signIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signIn@2x.png"; sourceTree = "<group>"; };
 		A5F888E71CEC4A3D0006AD8A /* CakeOnLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeOnLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F888EB1CEC4A3D0006AD8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5F888ED1CEC4A3D0006AD8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +94,7 @@
 		5F4154171CECB54A00604E56 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A50B55691CED9AF200AA58D5 /* 首页 */,
 				5F41543A1CECBDE800604E56 /* Tab_Icons */,
 			);
 			path = images;
@@ -89,6 +113,20 @@
 				5F4154421CECBDE800604E56 /* shopCart_select@2x.png */,
 			);
 			path = Tab_Icons;
+			sourceTree = "<group>";
+		};
+		A50B55691CED9AF200AA58D5 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				A597FE971CEDCE1100A2DE4E /* location@2x.png */,
+				A597FE981CEDCE1100A2DE4E /* signIn@2x.png */,
+				A50B556A1CED9AF200AA58D5 /* 冬日暖心@2x.png */,
+				A50B556B1CED9AF200AA58D5 /* 奥利奥雪域芝士牛乳@2x.png */,
+				A50B556C1CED9AF200AA58D5 /* 恋上莓@2x.png */,
+				A50B556D1CED9AF200AA58D5 /* 极地牛乳@2x.png */,
+				A50B556E1CED9AF200AA58D5 /* 金牌拿破仑@2x.png */,
+			);
+			path = "首页";
 			sourceTree = "<group>";
 		};
 		A5F888DE1CEC4A3D0006AD8A = {
@@ -207,6 +245,12 @@
 		A5F889381CEC6F3A0006AD8A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				A50B55741CED9E5900AA58D5 /* TypeOneCell.h */,
+				A50B55751CED9E5900AA58D5 /* TypeOneCell.m */,
+				A50B55771CED9E9B00AA58D5 /* TypeTwoCell.h */,
+				A50B55781CED9E9B00AA58D5 /* TypeTwoCell.m */,
+				A50B557A1CED9EB000AA58D5 /* TypeThreeCell.h */,
+				A50B557B1CED9EB000AA58D5 /* TypeThreeCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -336,15 +380,22 @@
 			files = (
 				5F4154431CECBDE800604E56 /* mall_unselect@2x.png in Resources */,
 				A5F888FD1CEC4A3D0006AD8A /* LaunchScreen.storyboard in Resources */,
+				A50B55721CED9AF200AA58D5 /* 极地牛乳@2x.png in Resources */,
 				5F4154491CECBDE800604E56 /* shopCart_unselect@2x.png in Resources */,
+				A597FE9A1CEDCE1100A2DE4E /* signIn@2x.png in Resources */,
+				A50B55701CED9AF200AA58D5 /* 奥利奥雪域芝士牛乳@2x.png in Resources */,
 				5F4154461CECBDE800604E56 /* mine_select@2x.png in Resources */,
 				5F41544A1CECBDE800604E56 /* shopCart_select@2x.png in Resources */,
 				5F4154481CECBDE800604E56 /* recommend_select@2x.png in Resources */,
 				A5F888FA1CEC4A3D0006AD8A /* Assets.xcassets in Resources */,
 				A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */,
+				A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */,
+				A50B55731CED9AF200AA58D5 /* 金牌拿破仑@2x.png in Resources */,
 				5F4154471CECBDE800604E56 /* recommend_unselect@2x.png in Resources */,
 				5F4154441CECBDE800604E56 /* mall_select@2x.png in Resources */,
+				A50B55711CED9AF200AA58D5 /* 恋上莓@2x.png in Resources */,
 				5F4154451CECBDE800604E56 /* mine_unselect@2x.png in Resources */,
+				A50B556F1CED9AF200AA58D5 /* 冬日暖心@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +406,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50B557C1CED9EB000AA58D5 /* TypeThreeCell.m in Sources */,
 				A5F8892F1CEC6D950006AD8A /* TabBarController.m in Sources */,
 				5F4154101CECAB8C00604E56 /* CakeMallVC.m in Sources */,
 				A5F888EF1CEC4A3D0006AD8A /* AppDelegate.m in Sources */,
 				5F4154161CECAC5900604E56 /* UserInfoVC.m in Sources */,
+				A50B55761CED9E5900AA58D5 /* TypeOneCell.m in Sources */,
+				A50B55791CED9E9B00AA58D5 /* TypeTwoCell.m in Sources */,
 				A5F888EC1CEC4A3D0006AD8A /* main.m in Sources */,
 				5F4154131CECABA300604E56 /* ShopCartVC.m in Sources */,
 				5F41540D1CECAB5C00604E56 /* RecommendVC.m in Sources */,
