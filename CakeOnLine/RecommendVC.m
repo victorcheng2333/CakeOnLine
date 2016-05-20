@@ -10,6 +10,7 @@
 #import "TypeOneCell.h"
 #import "TypeTwoCell.h"
 #import "TypeThreeCell.h"
+#import "CakeDetailVC.h"
 @interface RecommendVC () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -17,6 +18,10 @@
 @end
 
 @implementation RecommendVC
+
+- (void)viewWillAppear:(BOOL)animated {
+    self.navigationController.navigationBarHidden = YES;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -59,9 +64,13 @@
     } else if(indexPath.row < 3) {
        return 170.0;
     } else {
-        return 369.0;
+        return 265.0;
     }
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    CakeDetailVC *detailVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CakeDetailVC"];
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
 
 @end

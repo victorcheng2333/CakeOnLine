@@ -12,6 +12,7 @@
 #import "CakeMallVC.h"
 #import "ShopCartVC.h"
 #import "UserInfoVC.h"
+#import "CommonNavigationVC.h"
 @interface TabBarController ()
 
 @end
@@ -65,7 +66,7 @@
     [vc.tabBarItem setTitleTextAttributes:selectTextAttrs forState:UIControlStateSelected];
     
     // 包装一个导航控制器, 添加导航控制器为tabbarcontroller的子控制器
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+     CommonNavigationVC *nav = [[CommonNavigationVC alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
 }
 
