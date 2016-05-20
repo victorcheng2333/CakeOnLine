@@ -7,10 +7,13 @@
 //
 
 #import "RecommendVC.h"
-
+#import "TypeOneCell.h"
+#import "TypeTwoCell.h"
+#import "TypeThreeCell.h"
 @interface RecommendVC () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonnull, strong) NSArray *typeTwoArray;
 @end
 
 @implementation RecommendVC
@@ -18,7 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBarHidden = YES;
-    // Do any additional setup after loading the view.
+    _typeTwoArray = @[@{@"title":@"0元免费领",@"image":@"冬日暖心",@"alias":@"Free to Receive"},
+                      @{@"title":@"每月钜惠",@"image":@"极地牛乳",@"alias":@"Preferential Storm"}];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,14 +37,31 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TypeTwoCell"];
-    return cell;
+    if (indexPath.row == 0) {
+        TypeOneCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TypeOneCell"];
+        return cell;
+    }else if(indexPath.row < 3) {
+        TypeTwoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TypeTwoCell"];
+        NSDictionary *dict = _typeTwoArray[indexPath.row-1];
+        cell.headLabel.text = dict[@"title"];
+        cell.aliasLabel.text = dict[@"alias"];
+        cell.imgView.image = [UIImage imageNamed:dict[@"image"]];
+        return cell;
+    } else {
+        TypeThreeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TypeThreeCell"];
+        return cell;
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 170.0;
+    if (indexPath.row == 0) {
+        return 335.0;
+    } else if(indexPath.row < 3) {
+       return 170.0;
+    } else {
+        return 369.0;
+    }
 }
-
 
 
 @end

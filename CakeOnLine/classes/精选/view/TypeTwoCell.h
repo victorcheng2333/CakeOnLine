@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TypeTwoCell : UITableViewCell
-
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) IBOutlet UILabel *headLabel;
+@property (weak, nonatomic) IBOutlet UILabel *aliasLabel;
 @end
