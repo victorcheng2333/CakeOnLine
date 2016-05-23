@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class TypeThreeCell;
+@protocol TypeThreeCellDelegate <NSObject>
+@optional
+- (void)typeThreeCellDelegateLeftBtnClicked;
+- (void)typeThreeCellDelegateRightBtnClicked;
+@end
 
 @interface TypeThreeCell : UITableViewCell
-
+@property (nonatomic, weak) id<TypeThreeCellDelegate> delegate;
 @end

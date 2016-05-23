@@ -18,8 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBarHidden = NO;
-    self.titleImageName = @"产品详情-奥利奥雪域牛乳芝士-3";
-    self.detailImageName = @"产品详情-奥利奥雪域牛乳芝士-2";
+    NSArray  *cakesArray = [[NSUserDefaults standardUserDefaults] objectForKey:@"cakesArray"];
+    for (NSDictionary *dict in cakesArray) {
+        NSString *identifier =dict[@"identifier"];
+        if ([identifier isEqualToString:_identifier]) {
+            self.titleImageName = dict[@"titleImageName"];
+            self.detailImageName = dict[@"detailImageName"];
+            self.descriptionImageName = dict[@"descriptionImageName"];
+        }
+    }
+    
     UIImageView *titleImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:self.titleImageName]];
     self.navigationItem.titleView = titleImageView;
     

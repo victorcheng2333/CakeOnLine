@@ -10,15 +10,13 @@
 
 @implementation TypeThreeCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+- (IBAction)leftBtnClicked:(id)sender {
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (IBAction)rightBtnClicked:(id)sender {
+    if ([self.delegate respondsToSelector:@selector(typeThreeCellDelegateRightBtnClicked)]) {
+        [self.delegate typeThreeCellDelegateRightBtnClicked];
+    }
 }
 
 @end
