@@ -66,6 +66,17 @@
 		A512EF831CEF2DDB00515F44 /* CakeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A512EF821CEF2DDB00515F44 /* CakeDetailVC.m */; };
 		A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE971CEDCE1100A2DE4E /* location@2x.png */; };
 		A597FE9A1CEDCE1100A2DE4E /* signIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE981CEDCE1100A2DE4E /* signIn@2x.png */; };
+		A5A508A21CF2D6DC0030127F /* 刀叉@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508981CF2D6DC0030127F /* 刀叉@2x.png */; };
+		A5A508A31CF2D6DC0030127F /* 列表-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508991CF2D6DC0030127F /* 列表-1@2x.png */; };
+		A5A508A41CF2D6DC0030127F /* 列表-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A5089A1CF2D6DC0030127F /* 列表-2@2x.png */; };
+		A5A508A51CF2D6DC0030127F /* 列表-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A5089B1CF2D6DC0030127F /* 列表-3@2x.png */; };
+		A5A508A61CF2D6DC0030127F /* 列表-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A5089C1CF2D6DC0030127F /* 列表-4@2x.png */; };
+		A5A508A71CF2D6DC0030127F /* cheese@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A5089E1CF2D6DC0030127F /* cheese@2x.png */; };
+		A5A508A81CF2D6DC0030127F /* chocolate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A5089F1CF2D6DC0030127F /* chocolate@2x.png */; };
+		A5A508A91CF2D6DC0030127F /* fruit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508A01CF2D6DC0030127F /* fruit@2x.png */; };
+		A5A508AA1CF2D6DC0030127F /* milk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508A11CF2D6DC0030127F /* milk@2x.png */; };
+		A5A508AD1CF2DE5F0030127F /* MallThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A508AC1CF2DE5F0030127F /* MallThreeCell.m */; };
+		A5A508B01CF2E2D60030127F /* MallTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A508AF1CF2E2D60030127F /* MallTwoCell.m */; };
 		A5F888EC1CEC4A3D0006AD8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888EB1CEC4A3D0006AD8A /* main.m */; };
 		A5F888EF1CEC4A3D0006AD8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888EE1CEC4A3D0006AD8A /* AppDelegate.m */; };
 		A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F888F61CEC4A3D0006AD8A /* Main.storyboard */; };
@@ -145,6 +156,19 @@
 		A512EF821CEF2DDB00515F44 /* CakeDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CakeDetailVC.m; sourceTree = "<group>"; };
 		A597FE971CEDCE1100A2DE4E /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
 		A597FE981CEDCE1100A2DE4E /* signIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signIn@2x.png"; sourceTree = "<group>"; };
+		A5A508981CF2D6DC0030127F /* 刀叉@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刀叉@2x.png"; sourceTree = "<group>"; };
+		A5A508991CF2D6DC0030127F /* 列表-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表-1@2x.png"; sourceTree = "<group>"; };
+		A5A5089A1CF2D6DC0030127F /* 列表-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表-2@2x.png"; sourceTree = "<group>"; };
+		A5A5089B1CF2D6DC0030127F /* 列表-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表-3@2x.png"; sourceTree = "<group>"; };
+		A5A5089C1CF2D6DC0030127F /* 列表-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表-4@2x.png"; sourceTree = "<group>"; };
+		A5A5089E1CF2D6DC0030127F /* cheese@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cheese@2x.png"; sourceTree = "<group>"; };
+		A5A5089F1CF2D6DC0030127F /* chocolate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chocolate@2x.png"; sourceTree = "<group>"; };
+		A5A508A01CF2D6DC0030127F /* fruit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fruit@2x.png"; sourceTree = "<group>"; };
+		A5A508A11CF2D6DC0030127F /* milk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "milk@2x.png"; sourceTree = "<group>"; };
+		A5A508AB1CF2DE5F0030127F /* MallThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallThreeCell.h; sourceTree = "<group>"; };
+		A5A508AC1CF2DE5F0030127F /* MallThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallThreeCell.m; sourceTree = "<group>"; };
+		A5A508AE1CF2E2D60030127F /* MallTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallTwoCell.h; sourceTree = "<group>"; };
+		A5A508AF1CF2E2D60030127F /* MallTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallTwoCell.m; sourceTree = "<group>"; };
 		A5F888E71CEC4A3D0006AD8A /* CakeOnLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeOnLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F888EB1CEC4A3D0006AD8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5F888ED1CEC4A3D0006AD8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -292,6 +316,7 @@
 		5F4154171CECB54A00604E56 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A5A508971CF2D6DC0030127F /* 蛋糕商城 */,
 				5F39D70C1CF1B0260008A9AF /* 详情页 */,
 				A50B55691CED9AF200AA58D5 /* 首页 */,
 				5F41543A1CECBDE800604E56 /* Tab_Icons */,
@@ -335,6 +360,30 @@
 				A512EF7F1CEF284E00515F44 /* CommonNavigationVC.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		A5A508971CF2D6DC0030127F /* 蛋糕商城 */ = {
+			isa = PBXGroup;
+			children = (
+				A5A508981CF2D6DC0030127F /* 刀叉@2x.png */,
+				A5A508991CF2D6DC0030127F /* 列表-1@2x.png */,
+				A5A5089A1CF2D6DC0030127F /* 列表-2@2x.png */,
+				A5A5089B1CF2D6DC0030127F /* 列表-3@2x.png */,
+				A5A5089C1CF2D6DC0030127F /* 列表-4@2x.png */,
+				A5A5089D1CF2D6DC0030127F /* 口味 */,
+			);
+			path = "蛋糕商城";
+			sourceTree = "<group>";
+		};
+		A5A5089D1CF2D6DC0030127F /* 口味 */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5089E1CF2D6DC0030127F /* cheese@2x.png */,
+				A5A5089F1CF2D6DC0030127F /* chocolate@2x.png */,
+				A5A508A01CF2D6DC0030127F /* fruit@2x.png */,
+				A5A508A11CF2D6DC0030127F /* milk@2x.png */,
+			);
+			path = "口味";
 			sourceTree = "<group>";
 		};
 		A5F888DE1CEC4A3D0006AD8A = {
@@ -497,6 +546,10 @@
 		A5F8893C1CEC6F3A0006AD8A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				A5A508AB1CF2DE5F0030127F /* MallThreeCell.h */,
+				A5A508AC1CF2DE5F0030127F /* MallThreeCell.m */,
+				A5A508AE1CF2E2D60030127F /* MallTwoCell.h */,
+				A5A508AF1CF2E2D60030127F /* MallTwoCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -610,21 +663,28 @@
 				A50B55701CED9AF200AA58D5 /* 奥利奥雪域芝士牛乳@2x.png in Resources */,
 				5F4154461CECBDE800604E56 /* mine_select@2x.png in Resources */,
 				5F39D73F1CF1B0260008A9AF /* 产品详情-奥利奥雪域-1@2x.png in Resources */,
+				A5A508A71CF2D6DC0030127F /* cheese@2x.png in Resources */,
 				5F41544A1CECBDE800604E56 /* shopCart_select@2x.png in Resources */,
 				5F39D74D1CF1B0260008A9AF /* 产品详情-极地牛乳-3@2x.png in Resources */,
 				5F4154481CECBDE800604E56 /* recommend_select@2x.png in Resources */,
 				A5F888FA1CEC4A3D0006AD8A /* Assets.xcassets in Resources */,
+				A5A508A81CF2D6DC0030127F /* chocolate@2x.png in Resources */,
 				A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */,
 				5F39D7491CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-2@2x.png in Resources */,
 				5F39D7351CF1B0260008A9AF /* jia@2x.png in Resources */,
 				A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */,
+				A5A508A41CF2D6DC0030127F /* 列表-2@2x.png in Resources */,
 				A50B55731CED9AF200AA58D5 /* 金牌拿破仑@2x.png in Resources */,
 				5F39D73D1CF1B0260008A9AF /* 产品详情-和风抹茶栗子-2@2x.png in Resources */,
 				5F39D73A1CF1B0260008A9AF /* 产品详情-么么哒香芒-2@2x.png in Resources */,
+				A5A508A51CF2D6DC0030127F /* 列表-3@2x.png in Resources */,
 				5F4154471CECBDE800604E56 /* recommend_unselect@2x.png in Resources */,
 				5F39D7481CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-1@2x.png in Resources */,
 				5F39D7371CF1B0260008A9AF /* jiarugouwuche@2x.png in Resources */,
+				A5A508A31CF2D6DC0030127F /* 列表-1@2x.png in Resources */,
+				A5A508A61CF2D6DC0030127F /* 列表-4@2x.png in Resources */,
 				5F39D7501CF1B0260008A9AF /* 产品详情-蓝妃儿-3@2x.png in Resources */,
+				A5A508AA1CF2D6DC0030127F /* milk@2x.png in Resources */,
 				5F39D73E1CF1B0260008A9AF /* 产品详情-和风抹茶栗子-3@2x.png in Resources */,
 				5F39D75A1CF1E2D70008A9AF /* 产品详情-香草泡芙-3@2x.png in Resources */,
 				5F39D7461CF1B0260008A9AF /* 产品详情-情定爱情海-2@2x.png in Resources */,
@@ -634,11 +694,13 @@
 				5F39D7591CF1E2D70008A9AF /* 产品详情-香草泡芙-2@2x.png in Resources */,
 				5F39D73B1CF1B0260008A9AF /* 产品详情-么么哒香芒-3@2x.png in Resources */,
 				A50B55711CED9AF200AA58D5 /* 恋上莓@2x.png in Resources */,
+				A5A508A21CF2D6DC0030127F /* 刀叉@2x.png in Resources */,
 				5F39D7361CF1B0260008A9AF /* jian@2x.png in Resources */,
 				5F4154451CECBDE800604E56 /* mine_unselect@2x.png in Resources */,
 				5F39D74E1CF1B0260008A9AF /* 产品详情-蓝妃儿-1@2x.png in Resources */,
 				5F39D7451CF1B0260008A9AF /* 产品详情-情定爱情海-1@2x.png in Resources */,
 				5F39D7391CF1B0260008A9AF /* 产品详情-么么哒香芒-1@2x.png in Resources */,
+				A5A508A91CF2D6DC0030127F /* fruit@2x.png in Resources */,
 				5F39D74A1CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-3@2x.png in Resources */,
 				5F39D7521CF1B0260008A9AF /* 产品详情-金牌拿破仑-2@2x.png in Resources */,
 				A50B556F1CED9AF200AA58D5 /* 冬日暖心@2x.png in Resources */,
@@ -655,6 +717,7 @@
 			files = (
 				A50B557C1CED9EB000AA58D5 /* TypeThreeCell.m in Sources */,
 				5F39D70B1CF1AE9B0008A9AF /* CakeModel.m in Sources */,
+				A5A508AD1CF2DE5F0030127F /* MallThreeCell.m in Sources */,
 				A5F8892F1CEC6D950006AD8A /* TabBarController.m in Sources */,
 				A512EF801CEF284E00515F44 /* CommonNavigationVC.m in Sources */,
 				5F4154101CECAB8C00604E56 /* CakeMallVC.m in Sources */,
@@ -666,6 +729,7 @@
 				A5F888EC1CEC4A3D0006AD8A /* main.m in Sources */,
 				5F4154131CECABA300604E56 /* ShopCartVC.m in Sources */,
 				5F41540D1CECAB5C00604E56 /* RecommendVC.m in Sources */,
+				A5A508B01CF2E2D60030127F /* MallTwoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
