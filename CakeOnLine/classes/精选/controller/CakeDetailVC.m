@@ -7,10 +7,11 @@
 //
 
 #import "CakeDetailVC.h"
-
-@interface CakeDetailVC ()
+#import "DetailView.h"
+@interface CakeDetailVC ()<DetailViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) DetailView *detailView;
 @end
 
 @implementation CakeDetailVC
@@ -27,16 +28,13 @@
             self.descriptionImageName = dict[@"descriptionImageName"];
         }
     }
-    
     UIImageView *titleImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:self.titleImageName]];
     self.navigationItem.titleView = titleImageView;
-    
     
     UIImage *detailImage = [UIImage imageNamed:self.detailImageName];
     CGFloat height = detailImage.size.height;
     
     self.scrollView.contentSize = CGSizeMake(self.view.bounds.size.width, height);
-    
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, height)];
     imageView.image = detailImage;
@@ -45,19 +43,33 @@
 
 }
 
+
+- (IBAction)detailBtnClicked:(id)sender {
+    _detailView= [[DetailView alloc] initWithFrame:[UIScreen mainScreen].bounds imageName:_descriptionImageName];
+    _detailView.hidden = NO;
+    _detailView.delegate = self;
+    [self.view addSubview:_detailView];
+    _detailView.alpha = 0;
+    
+    [UIView animateWithDuration:0.6 animations:^{
+        _detailView.alpha = 1;
+    }];
+}
+
+- (void)detailViewClose {
+    
+    [UIView animateWithDuration:0.6 animations:^{
+        _detailView.alpha = 0;
+    } completion:^(BOOL finished) {
+        _detailView.hidden = YES;
+    }];
+    
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

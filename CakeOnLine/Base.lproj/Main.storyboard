@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -257,6 +257,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pij-2g-DI6">
+                                <rect key="frame" x="321" y="450" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="MU0-2p-c2A"/>
+                                    <constraint firstAttribute="height" constant="44" id="XuF-MX-qWG"/>
+                                </constraints>
+                                <state key="normal" image="xiangqing.png"/>
+                                <state key="highlighted" image="xiangqing.png"/>
+                                <connections>
+                                    <action selector="detailBtnClicked:" destination="Ik8-8U-7hv" eventType="touchUpInside" id="bxN-tb-giS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -265,6 +277,8 @@
                             <constraint firstItem="GN0-Gv-PSe" firstAttribute="leading" secondItem="6I0-TU-MNs" secondAttribute="leading" id="UKH-wd-Z11"/>
                             <constraint firstAttribute="bottom" secondItem="GN0-Gv-PSe" secondAttribute="bottom" id="hT2-tY-aBh"/>
                             <constraint firstItem="Gt8-cZ-pZL" firstAttribute="top" secondItem="GN0-Gv-PSe" secondAttribute="bottom" id="mLy-oB-Y1V"/>
+                            <constraint firstItem="Pij-2g-DI6" firstAttribute="top" secondItem="g6Q-nJ-Gn1" secondAttribute="bottom" constant="430" id="yz6-UK-UpF"/>
+                            <constraint firstAttribute="trailing" secondItem="Pij-2g-DI6" secondAttribute="trailing" constant="10" id="zDB-zx-h0C"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -603,6 +617,7 @@
         <image name="location.png" width="82" height="31"/>
         <image name="milk.png" width="45" height="56"/>
         <image name="signIn.png" width="82" height="31"/>
+        <image name="xiangqing.png" width="33" height="33"/>
         <image name="冬日暖心.png" width="360" height="120"/>
         <image name="刀叉.png" width="9" height="15"/>
         <image name="列表-1.png" width="375" height="230"/>
