@@ -39,7 +39,7 @@
     _cakesArray = [[NSUserDefaults standardUserDefaults] objectForKey:@"cakesArray"];
     if (_cakesArray == nil) {
         NSMutableArray *mutableArray = [NSMutableArray array];
-        NSArray *identifierArray = @[@"香草泡芙",@"么么哒香芒",@"和风抹茶栗子",@"奥利奥雪域",@"巧克力石板街",@"情定爱情海",@"慕尼黑巧克力",@"极地牛乳",@"蓝妃儿",@"金牌拿破仑"];
+        NSArray *identifierArray = @[@"松露巧克力", @"莱茵河莓妖精", @"不莱梅漫想曲", @"香草泡芙",@"么么哒香芒",@"和风抹茶栗子",@"奥利奥雪域",@"巧克力石板街",@"情定爱情海",@"慕尼黑巧克力",@"极地牛乳",@"蓝妃儿",@"金牌拿破仑"];
         for (NSString *identifier in identifierArray) {
             NSMutableDictionary *dict = [NSMutableDictionary dictionary];
             [dict setValue:identifier forKey:@"identifier"];

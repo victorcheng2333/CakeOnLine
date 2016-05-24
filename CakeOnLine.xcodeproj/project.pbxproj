@@ -64,6 +64,15 @@
 		A50B557C1CED9EB000AA58D5 /* TypeThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B557B1CED9EB000AA58D5 /* TypeThreeCell.m */; };
 		A512EF801CEF284E00515F44 /* CommonNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A512EF7F1CEF284E00515F44 /* CommonNavigationVC.m */; };
 		A512EF831CEF2DDB00515F44 /* CakeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A512EF821CEF2DDB00515F44 /* CakeDetailVC.m */; };
+		A55CC1911CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1861CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png */; };
+		A55CC1921CF44155007957F6 /* 产品详情-松露巧克力-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1871CF44155007957F6 /* 产品详情-松露巧克力-3@2x.png */; };
+		A55CC1931CF44155007957F6 /* 产品详情-松露巧克力-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1881CF44155007957F6 /* 产品详情-松露巧克力-2@2x.png */; };
+		A55CC1941CF44155007957F6 /* 产品详情-莱茵河莓妖精-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC18A1CF44155007957F6 /* 产品详情-莱茵河莓妖精-1@2x.png */; };
+		A55CC1951CF44155007957F6 /* 产品详情-莱茵河莓妖精-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC18B1CF44155007957F6 /* 产品详情-莱茵河莓妖精-2@2x.png */; };
+		A55CC1961CF44155007957F6 /* 产品详情-莱茵河莓妖精-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC18C1CF44155007957F6 /* 产品详情-莱茵河莓妖精-3@2x.png */; };
+		A55CC1971CF44155007957F6 /* 产品详情-不莱梅漫想曲-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC18E1CF44155007957F6 /* 产品详情-不莱梅漫想曲-2@2x.png */; };
+		A55CC1981CF44155007957F6 /* 产品详情-不莱梅漫想曲-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC18F1CF44155007957F6 /* 产品详情-不莱梅漫想曲-1@2x.png */; };
+		A55CC1991CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1901CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png */; };
 		A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE971CEDCE1100A2DE4E /* location@2x.png */; };
 		A597FE9A1CEDCE1100A2DE4E /* signIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE981CEDCE1100A2DE4E /* signIn@2x.png */; };
 		A5A508A21CF2D6DC0030127F /* 刀叉@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508981CF2D6DC0030127F /* 刀叉@2x.png */; };
@@ -169,6 +178,15 @@
 		A512EF7F1CEF284E00515F44 /* CommonNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNavigationVC.m; sourceTree = "<group>"; };
 		A512EF811CEF2DDB00515F44 /* CakeDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CakeDetailVC.h; sourceTree = "<group>"; };
 		A512EF821CEF2DDB00515F44 /* CakeDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CakeDetailVC.m; sourceTree = "<group>"; };
+		A55CC1861CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-松露巧克力-1@2x.png"; sourceTree = "<group>"; };
+		A55CC1871CF44155007957F6 /* 产品详情-松露巧克力-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-松露巧克力-3@2x.png"; sourceTree = "<group>"; };
+		A55CC1881CF44155007957F6 /* 产品详情-松露巧克力-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-松露巧克力-2@2x.png"; sourceTree = "<group>"; };
+		A55CC18A1CF44155007957F6 /* 产品详情-莱茵河莓妖精-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-莱茵河莓妖精-1@2x.png"; sourceTree = "<group>"; };
+		A55CC18B1CF44155007957F6 /* 产品详情-莱茵河莓妖精-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-莱茵河莓妖精-2@2x.png"; sourceTree = "<group>"; };
+		A55CC18C1CF44155007957F6 /* 产品详情-莱茵河莓妖精-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-莱茵河莓妖精-3@2x.png"; sourceTree = "<group>"; };
+		A55CC18E1CF44155007957F6 /* 产品详情-不莱梅漫想曲-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-不莱梅漫想曲-2@2x.png"; sourceTree = "<group>"; };
+		A55CC18F1CF44155007957F6 /* 产品详情-不莱梅漫想曲-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-不莱梅漫想曲-1@2x.png"; sourceTree = "<group>"; };
+		A55CC1901CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-不莱梅漫想曲-3@2x.png"; sourceTree = "<group>"; };
 		A597FE971CEDCE1100A2DE4E /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
 		A597FE981CEDCE1100A2DE4E /* signIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signIn@2x.png"; sourceTree = "<group>"; };
 		A5A508981CF2D6DC0030127F /* 刀叉@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刀叉@2x.png"; sourceTree = "<group>"; };
@@ -231,6 +249,9 @@
 				5F39D70E1CF1B0260008A9AF /* jian@2x.png */,
 				5F39D70F1CF1B0260008A9AF /* jiarugouwuche@2x.png */,
 				5F39D7101CF1B0260008A9AF /* xiangqing@2x.png */,
+				A55CC1851CF44155007957F6 /* 松露巧克力 */,
+				A55CC1891CF44155007957F6 /* 莱茵河莓妖精 */,
+				A55CC18D1CF44155007957F6 /* 不莱梅漫想曲 */,
 				5F39D7541CF1E2D70008A9AF /* 香草泡芙 */,
 				5F39D7111CF1B0260008A9AF /* 么么哒香芒 */,
 				5F39D7151CF1B0260008A9AF /* 和风抹茶栗子 */,
@@ -393,6 +414,36 @@
 				A512EF7F1CEF284E00515F44 /* CommonNavigationVC.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		A55CC1851CF44155007957F6 /* 松露巧克力 */ = {
+			isa = PBXGroup;
+			children = (
+				A55CC1861CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png */,
+				A55CC1871CF44155007957F6 /* 产品详情-松露巧克力-3@2x.png */,
+				A55CC1881CF44155007957F6 /* 产品详情-松露巧克力-2@2x.png */,
+			);
+			path = "松露巧克力";
+			sourceTree = "<group>";
+		};
+		A55CC1891CF44155007957F6 /* 莱茵河莓妖精 */ = {
+			isa = PBXGroup;
+			children = (
+				A55CC18A1CF44155007957F6 /* 产品详情-莱茵河莓妖精-1@2x.png */,
+				A55CC18B1CF44155007957F6 /* 产品详情-莱茵河莓妖精-2@2x.png */,
+				A55CC18C1CF44155007957F6 /* 产品详情-莱茵河莓妖精-3@2x.png */,
+			);
+			path = "莱茵河莓妖精";
+			sourceTree = "<group>";
+		};
+		A55CC18D1CF44155007957F6 /* 不莱梅漫想曲 */ = {
+			isa = PBXGroup;
+			children = (
+				A55CC18F1CF44155007957F6 /* 产品详情-不莱梅漫想曲-1@2x.png */,
+				A55CC18E1CF44155007957F6 /* 产品详情-不莱梅漫想曲-2@2x.png */,
+				A55CC1901CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png */,
+			);
+			path = "不莱梅漫想曲";
 			sourceTree = "<group>";
 		};
 		A5A508971CF2D6DC0030127F /* 蛋糕商城 */ = {
@@ -737,6 +788,7 @@
 				5F39D7581CF1E2D70008A9AF /* 产品详情-香草泡芙-1@2x.png in Resources */,
 				A5F888FD1CEC4A3D0006AD8A /* LaunchScreen.storyboard in Resources */,
 				5F39D73C1CF1B0260008A9AF /* 产品详情-和风抹茶栗子-1@2x.png in Resources */,
+				A55CC1961CF44155007957F6 /* 产品详情-莱茵河莓妖精-3@2x.png in Resources */,
 				A50B55721CED9AF200AA58D5 /* 极地牛乳@2x.png in Resources */,
 				A5F6322C1CF3E53E00A9CD0A /* 果味缤纷_么么哒香芒@2x.png in Resources */,
 				5F39D74F1CF1B0260008A9AF /* 产品详情-蓝妃儿-2@2x.png in Resources */,
@@ -753,6 +805,7 @@
 				5F39D7531CF1B0260008A9AF /* 产品详情-金牌拿破仑-3@2x.png in Resources */,
 				A5F632361CF3E53E00A9CD0A /* 舞动巧克力_title@2x.png in Resources */,
 				5F39D7471CF1B0260008A9AF /* 产品详情-情定爱情海-3@2x.png in Resources */,
+				A55CC1921CF44155007957F6 /* 产品详情-松露巧克力-3@2x.png in Resources */,
 				A50B55701CED9AF200AA58D5 /* 奥利奥雪域芝士牛乳@2x.png in Resources */,
 				5F4154461CECBDE800604E56 /* mine_select@2x.png in Resources */,
 				A5F632371CF3E53E00A9CD0A /* 醇香奶油_情定爱情海@2x.png in Resources */,
@@ -767,6 +820,7 @@
 				5F39D74D1CF1B0260008A9AF /* 产品详情-极地牛乳-3@2x.png in Resources */,
 				5F4154481CECBDE800604E56 /* recommend_select@2x.png in Resources */,
 				A5F888FA1CEC4A3D0006AD8A /* Assets.xcassets in Resources */,
+				A55CC1991CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png in Resources */,
 				A5A508A81CF2D6DC0030127F /* chocolate@2x.png in Resources */,
 				A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */,
 				A5F632351CF3E53E00A9CD0A /* 舞动巧克力_松露巧克力@2x.png in Resources */,
@@ -776,10 +830,12 @@
 				A5A508A41CF2D6DC0030127F /* 列表-2@2x.png in Resources */,
 				A50B55731CED9AF200AA58D5 /* 金牌拿破仑@2x.png in Resources */,
 				5F39D73D1CF1B0260008A9AF /* 产品详情-和风抹茶栗子-2@2x.png in Resources */,
+				A55CC1931CF44155007957F6 /* 产品详情-松露巧克力-2@2x.png in Resources */,
 				5F39D73A1CF1B0260008A9AF /* 产品详情-么么哒香芒-2@2x.png in Resources */,
 				A5A508A51CF2D6DC0030127F /* 列表-3@2x.png in Resources */,
 				5F4154471CECBDE800604E56 /* recommend_unselect@2x.png in Resources */,
 				5F39D7481CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-1@2x.png in Resources */,
+				A55CC1951CF44155007957F6 /* 产品详情-莱茵河莓妖精-2@2x.png in Resources */,
 				5F39D7371CF1B0260008A9AF /* jiarugouwuche@2x.png in Resources */,
 				A5A508A31CF2D6DC0030127F /* 列表-1@2x.png in Resources */,
 				A5F632301CF3E53E00A9CD0A /* 浓情芝士_极地牛乳@2x.png in Resources */,
@@ -787,13 +843,16 @@
 				5F39D7501CF1B0260008A9AF /* 产品详情-蓝妃儿-3@2x.png in Resources */,
 				A5A508AA1CF2D6DC0030127F /* milk@2x.png in Resources */,
 				5F39D73E1CF1B0260008A9AF /* 产品详情-和风抹茶栗子-3@2x.png in Resources */,
+				A55CC1971CF44155007957F6 /* 产品详情-不莱梅漫想曲-2@2x.png in Resources */,
 				5F39D75A1CF1E2D70008A9AF /* 产品详情-香草泡芙-3@2x.png in Resources */,
 				5F39D7461CF1B0260008A9AF /* 产品详情-情定爱情海-2@2x.png in Resources */,
+				A55CC1941CF44155007957F6 /* 产品详情-莱茵河莓妖精-1@2x.png in Resources */,
 				5F39D7441CF1B0260008A9AF /* 产品详情-巧克力石板街-3@2x.png in Resources */,
 				5F39D7401CF1B0260008A9AF /* 产品详情-奥利奥雪域-2@2x.png in Resources */,
 				5F4154441CECBDE800604E56 /* mall_select@2x.png in Resources */,
 				5F39D7591CF1E2D70008A9AF /* 产品详情-香草泡芙-2@2x.png in Resources */,
 				5F39D73B1CF1B0260008A9AF /* 产品详情-么么哒香芒-3@2x.png in Resources */,
+				A55CC1911CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png in Resources */,
 				A50B55711CED9AF200AA58D5 /* 恋上莓@2x.png in Resources */,
 				A5A508A21CF2D6DC0030127F /* 刀叉@2x.png in Resources */,
 				5F39D7361CF1B0260008A9AF /* jian@2x.png in Resources */,
@@ -804,6 +863,7 @@
 				A5F632321CF3E53E00A9CD0A /* 浓情芝士_title@2x.png in Resources */,
 				A5A508A91CF2D6DC0030127F /* fruit@2x.png in Resources */,
 				5F39D74A1CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-3@2x.png in Resources */,
+				A55CC1981CF44155007957F6 /* 产品详情-不莱梅漫想曲-1@2x.png in Resources */,
 				5F39D7521CF1B0260008A9AF /* 产品详情-金牌拿破仑-2@2x.png in Resources */,
 				A50B556F1CED9AF200AA58D5 /* 冬日暖心@2x.png in Resources */,
 				5F39D7411CF1B0260008A9AF /* 产品详情-奥利奥雪域-3@2x.png in Resources */,

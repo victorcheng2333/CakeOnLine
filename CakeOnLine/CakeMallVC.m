@@ -69,6 +69,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *identifier = @"";
     switch (indexPath.row) {
+        case 0:
+            identifier = @"不莱梅漫想曲";
+            break;
         case 2:
             identifier = @"金牌拿破仑";
             break;
