@@ -12,6 +12,7 @@
 #import "TypeThreeCell.h"
 #import "CakeDetailVC.h"
 #import "CakeModel.h"
+#import "LocationVC.h"
 @interface RecommendVC () <UITableViewDelegate, UITableViewDataSource, TypeThreeCellDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *typeTwoArray;
@@ -59,6 +60,10 @@
         [model setValuesForKeysWithDictionary:dict];
     }
     
+}
+- (IBAction)locationBtnClicked:(id)sender {
+    LocationVC *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"LocationVC"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -74,6 +74,7 @@
 		A55CC1981CF44155007957F6 /* 产品详情-不莱梅漫想曲-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC18F1CF44155007957F6 /* 产品详情-不莱梅漫想曲-1@2x.png */; };
 		A55CC1991CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1901CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png */; };
 		A55CC19F1CF44890007957F6 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CC19E1CF44890007957F6 /* DetailView.m */; };
+		A55CC1A21CF45936007957F6 /* LocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CC1A11CF45936007957F6 /* LocationVC.m */; };
 		A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE971CEDCE1100A2DE4E /* location@2x.png */; };
 		A597FE9A1CEDCE1100A2DE4E /* signIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE981CEDCE1100A2DE4E /* signIn@2x.png */; };
 		A5A508A21CF2D6DC0030127F /* 刀叉@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508981CF2D6DC0030127F /* 刀叉@2x.png */; };
@@ -190,6 +191,8 @@
 		A55CC1901CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-不莱梅漫想曲-3@2x.png"; sourceTree = "<group>"; };
 		A55CC19D1CF44890007957F6 /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
 		A55CC19E1CF44890007957F6 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		A55CC1A01CF45936007957F6 /* LocationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationVC.h; sourceTree = "<group>"; };
+		A55CC1A11CF45936007957F6 /* LocationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationVC.m; sourceTree = "<group>"; };
 		A597FE971CEDCE1100A2DE4E /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
 		A597FE981CEDCE1100A2DE4E /* signIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signIn@2x.png"; sourceTree = "<group>"; };
 		A5A508981CF2D6DC0030127F /* 刀叉@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刀叉@2x.png"; sourceTree = "<group>"; };
@@ -630,6 +633,8 @@
 				5F41540C1CECAB5C00604E56 /* RecommendVC.m */,
 				A512EF811CEF2DDB00515F44 /* CakeDetailVC.h */,
 				A512EF821CEF2DDB00515F44 /* CakeDetailVC.m */,
+				A55CC1A01CF45936007957F6 /* LocationVC.h */,
+				A55CC1A11CF45936007957F6 /* LocationVC.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -882,6 +887,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55CC1A21CF45936007957F6 /* LocationVC.m in Sources */,
 				A50B557C1CED9EB000AA58D5 /* TypeThreeCell.m in Sources */,
 				5F39D70B1CF1AE9B0008A9AF /* CakeModel.m in Sources */,
 				A5A508AD1CF2DE5F0030127F /* MallThreeCell.m in Sources */,
