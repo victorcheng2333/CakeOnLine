@@ -10,6 +10,7 @@
 #import "MallTwoCell.h"
 #import "MallThreeCell.h"
 #import "CakeDetailVC.h"
+#import "CakeTableVC.h"
 @interface CakeMallVC () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
@@ -80,9 +81,12 @@
         default:
             break;
     }
-    CakeDetailVC *detailVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CakeDetailVC"];
-    detailVC.identifier = identifier;
-    [self.navigationController pushViewController:detailVC animated:YES];
+    if (identifier.length > 0) {
+        CakeDetailVC *detailVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CakeDetailVC"];
+        detailVC.identifier = identifier;
+        [self.navigationController pushViewController:detailVC animated:YES];
+    }
+   
 }
 
 
@@ -98,12 +102,33 @@
 
 #pragma mark 点击事件
 - (IBAction)chocolateBtnClicked:(id)sender {
+    NSString *type = @"舞动巧克力";
+    NSArray *cakesArray = @[@"慕尼黑巧克力", @"巧克力石板街", @"松露巧克力"];
+    [self goToTableVCWithIype:type cakesArray:cakesArray];
 }
 - (IBAction)cheeseBtnClicked:(id)sender {
+    NSString *type = @"浓情芝士";
+    NSArray *cakesArray = @[@"莱茵河莓妖精", @"极地牛乳", @"奥利奥雪域"];
+    [self goToTableVCWithIype:type cakesArray:cakesArray];
 }
 - (IBAction)fruitBtnClicked:(id)sender {
+    NSString *type = @"果味缤纷";
+    NSArray *cakesArray = @[@"么么哒香芒", @"蓝妃儿"];
+    [self goToTableVCWithIype:type cakesArray:cakesArray];
 }
 - (IBAction)milkBtnClicked:(id)sender {
+    NSString *type = @"醇香奶油";
+    NSArray *cakesArray = @[@"情定爱情海"];
+    [self goToTableVCWithIype:type cakesArray:cakesArray];
 }
+
+- (void)goToTableVCWithIype:(NSString *)cakeType cakesArray:(NSArray *)cakesArray {
+    CakeTableVC *tableVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CakeTableVC"];
+    tableVC.cakeType = cakeType;
+    tableVC.cakesArray = cakesArray;
+    [self.navigationController pushViewController:tableVC animated:YES];
+    
+}
+
 
 @end

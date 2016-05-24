@@ -77,6 +77,21 @@
 		A5A508AA1CF2D6DC0030127F /* milk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508A11CF2D6DC0030127F /* milk@2x.png */; };
 		A5A508AD1CF2DE5F0030127F /* MallThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A508AC1CF2DE5F0030127F /* MallThreeCell.m */; };
 		A5A508B01CF2E2D60030127F /* MallTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A508AF1CF2E2D60030127F /* MallTwoCell.m */; };
+		A5F6322C1CF3E53E00A9CD0A /* 果味缤纷_么么哒香芒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F6321C1CF3E53D00A9CD0A /* 果味缤纷_么么哒香芒@2x.png */; };
+		A5F6322D1CF3E53E00A9CD0A /* 果味缤纷_蓝妃儿@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F6321D1CF3E53D00A9CD0A /* 果味缤纷_蓝妃儿@2x.png */; };
+		A5F6322E1CF3E53E00A9CD0A /* 果味缤纷_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F6321E1CF3E53D00A9CD0A /* 果味缤纷_title@2x.png */; };
+		A5F6322F1CF3E53E00A9CD0A /* 浓情芝士_莱茵河莓妖精@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F632201CF3E53D00A9CD0A /* 浓情芝士_莱茵河莓妖精@2x.png */; };
+		A5F632301CF3E53E00A9CD0A /* 浓情芝士_极地牛乳@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F632211CF3E53D00A9CD0A /* 浓情芝士_极地牛乳@2x.png */; };
+		A5F632311CF3E53E00A9CD0A /* 浓情芝士_奥利奥雪域3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F632221CF3E53D00A9CD0A /* 浓情芝士_奥利奥雪域3@2x.png */; };
+		A5F632321CF3E53E00A9CD0A /* 浓情芝士_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F632231CF3E53D00A9CD0A /* 浓情芝士_title@2x.png */; };
+		A5F632331CF3E53E00A9CD0A /* 舞动巧克力_慕尼黑巧克力@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F632251CF3E53E00A9CD0A /* 舞动巧克力_慕尼黑巧克力@2x.png */; };
+		A5F632341CF3E53E00A9CD0A /* 舞动巧克力_巧克力石板街@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F632261CF3E53E00A9CD0A /* 舞动巧克力_巧克力石板街@2x.png */; };
+		A5F632351CF3E53E00A9CD0A /* 舞动巧克力_松露巧克力@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F632271CF3E53E00A9CD0A /* 舞动巧克力_松露巧克力@2x.png */; };
+		A5F632361CF3E53E00A9CD0A /* 舞动巧克力_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F632281CF3E53E00A9CD0A /* 舞动巧克力_title@2x.png */; };
+		A5F632371CF3E53E00A9CD0A /* 醇香奶油_情定爱情海@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F6322A1CF3E53E00A9CD0A /* 醇香奶油_情定爱情海@2x.png */; };
+		A5F632381CF3E53E00A9CD0A /* 醇香奶油_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F6322B1CF3E53E00A9CD0A /* 醇香奶油_title@2x.png */; };
+		A5F6323B1CF3E6C000A9CD0A /* CakeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F6323A1CF3E6C000A9CD0A /* CakeTableVC.m */; };
+		A5F6323E1CF3EBB800A9CD0A /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F6323D1CF3EBB800A9CD0A /* ListCell.m */; };
 		A5F888EC1CEC4A3D0006AD8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888EB1CEC4A3D0006AD8A /* main.m */; };
 		A5F888EF1CEC4A3D0006AD8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F888EE1CEC4A3D0006AD8A /* AppDelegate.m */; };
 		A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F888F61CEC4A3D0006AD8A /* Main.storyboard */; };
@@ -169,6 +184,23 @@
 		A5A508AC1CF2DE5F0030127F /* MallThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallThreeCell.m; sourceTree = "<group>"; };
 		A5A508AE1CF2E2D60030127F /* MallTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallTwoCell.h; sourceTree = "<group>"; };
 		A5A508AF1CF2E2D60030127F /* MallTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallTwoCell.m; sourceTree = "<group>"; };
+		A5F6321C1CF3E53D00A9CD0A /* 果味缤纷_么么哒香芒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "果味缤纷_么么哒香芒@2x.png"; sourceTree = "<group>"; };
+		A5F6321D1CF3E53D00A9CD0A /* 果味缤纷_蓝妃儿@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "果味缤纷_蓝妃儿@2x.png"; sourceTree = "<group>"; };
+		A5F6321E1CF3E53D00A9CD0A /* 果味缤纷_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "果味缤纷_title@2x.png"; sourceTree = "<group>"; };
+		A5F632201CF3E53D00A9CD0A /* 浓情芝士_莱茵河莓妖精@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "浓情芝士_莱茵河莓妖精@2x.png"; sourceTree = "<group>"; };
+		A5F632211CF3E53D00A9CD0A /* 浓情芝士_极地牛乳@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "浓情芝士_极地牛乳@2x.png"; sourceTree = "<group>"; };
+		A5F632221CF3E53D00A9CD0A /* 浓情芝士_奥利奥雪域3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "浓情芝士_奥利奥雪域3@2x.png"; sourceTree = "<group>"; };
+		A5F632231CF3E53D00A9CD0A /* 浓情芝士_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "浓情芝士_title@2x.png"; sourceTree = "<group>"; };
+		A5F632251CF3E53E00A9CD0A /* 舞动巧克力_慕尼黑巧克力@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "舞动巧克力_慕尼黑巧克力@2x.png"; sourceTree = "<group>"; };
+		A5F632261CF3E53E00A9CD0A /* 舞动巧克力_巧克力石板街@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "舞动巧克力_巧克力石板街@2x.png"; sourceTree = "<group>"; };
+		A5F632271CF3E53E00A9CD0A /* 舞动巧克力_松露巧克力@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "舞动巧克力_松露巧克力@2x.png"; sourceTree = "<group>"; };
+		A5F632281CF3E53E00A9CD0A /* 舞动巧克力_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "舞动巧克力_title@2x.png"; sourceTree = "<group>"; };
+		A5F6322A1CF3E53E00A9CD0A /* 醇香奶油_情定爱情海@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "醇香奶油_情定爱情海@2x.png"; sourceTree = "<group>"; };
+		A5F6322B1CF3E53E00A9CD0A /* 醇香奶油_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "醇香奶油_title@2x.png"; sourceTree = "<group>"; };
+		A5F632391CF3E6C000A9CD0A /* CakeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CakeTableVC.h; sourceTree = "<group>"; };
+		A5F6323A1CF3E6C000A9CD0A /* CakeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CakeTableVC.m; sourceTree = "<group>"; };
+		A5F6323C1CF3EBB800A9CD0A /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		A5F6323D1CF3EBB800A9CD0A /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		A5F888E71CEC4A3D0006AD8A /* CakeOnLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeOnLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F888EB1CEC4A3D0006AD8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5F888ED1CEC4A3D0006AD8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -316,6 +348,7 @@
 		5F4154171CECB54A00604E56 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A5F6321A1CF3E53D00A9CD0A /* 列表 */,
 				A5A508971CF2D6DC0030127F /* 蛋糕商城 */,
 				5F39D70C1CF1B0260008A9AF /* 详情页 */,
 				A50B55691CED9AF200AA58D5 /* 首页 */,
@@ -384,6 +417,58 @@
 				A5A508A11CF2D6DC0030127F /* milk@2x.png */,
 			);
 			path = "口味";
+			sourceTree = "<group>";
+		};
+		A5F6321A1CF3E53D00A9CD0A /* 列表 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F6321B1CF3E53D00A9CD0A /* 果味缤纷 */,
+				A5F6321F1CF3E53D00A9CD0A /* 浓情芝士 */,
+				A5F632241CF3E53D00A9CD0A /* 舞动巧克力 */,
+				A5F632291CF3E53E00A9CD0A /* 醇香奶油 */,
+			);
+			path = "列表";
+			sourceTree = "<group>";
+		};
+		A5F6321B1CF3E53D00A9CD0A /* 果味缤纷 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F6321C1CF3E53D00A9CD0A /* 果味缤纷_么么哒香芒@2x.png */,
+				A5F6321D1CF3E53D00A9CD0A /* 果味缤纷_蓝妃儿@2x.png */,
+				A5F6321E1CF3E53D00A9CD0A /* 果味缤纷_title@2x.png */,
+			);
+			path = "果味缤纷";
+			sourceTree = "<group>";
+		};
+		A5F6321F1CF3E53D00A9CD0A /* 浓情芝士 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F632201CF3E53D00A9CD0A /* 浓情芝士_莱茵河莓妖精@2x.png */,
+				A5F632211CF3E53D00A9CD0A /* 浓情芝士_极地牛乳@2x.png */,
+				A5F632221CF3E53D00A9CD0A /* 浓情芝士_奥利奥雪域3@2x.png */,
+				A5F632231CF3E53D00A9CD0A /* 浓情芝士_title@2x.png */,
+			);
+			path = "浓情芝士";
+			sourceTree = "<group>";
+		};
+		A5F632241CF3E53D00A9CD0A /* 舞动巧克力 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F632251CF3E53E00A9CD0A /* 舞动巧克力_慕尼黑巧克力@2x.png */,
+				A5F632261CF3E53E00A9CD0A /* 舞动巧克力_巧克力石板街@2x.png */,
+				A5F632271CF3E53E00A9CD0A /* 舞动巧克力_松露巧克力@2x.png */,
+				A5F632281CF3E53E00A9CD0A /* 舞动巧克力_title@2x.png */,
+			);
+			path = "舞动巧克力";
+			sourceTree = "<group>";
+		};
+		A5F632291CF3E53E00A9CD0A /* 醇香奶油 */ = {
+			isa = PBXGroup;
+			children = (
+				A5F6322A1CF3E53E00A9CD0A /* 醇香奶油_情定爱情海@2x.png */,
+				A5F6322B1CF3E53E00A9CD0A /* 醇香奶油_title@2x.png */,
+			);
+			path = "醇香奶油";
 			sourceTree = "<group>";
 		};
 		A5F888DE1CEC4A3D0006AD8A = {
@@ -530,6 +615,8 @@
 			children = (
 				5F41540E1CECAB8C00604E56 /* CakeMallVC.h */,
 				5F41540F1CECAB8C00604E56 /* CakeMallVC.m */,
+				A5F632391CF3E6C000A9CD0A /* CakeTableVC.h */,
+				A5F6323A1CF3E6C000A9CD0A /* CakeTableVC.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -550,6 +637,8 @@
 				A5A508AC1CF2DE5F0030127F /* MallThreeCell.m */,
 				A5A508AE1CF2E2D60030127F /* MallTwoCell.h */,
 				A5A508AF1CF2E2D60030127F /* MallTwoCell.m */,
+				A5F6323C1CF3EBB800A9CD0A /* ListCell.h */,
+				A5F6323D1CF3EBB800A9CD0A /* ListCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -649,9 +738,12 @@
 				A5F888FD1CEC4A3D0006AD8A /* LaunchScreen.storyboard in Resources */,
 				5F39D73C1CF1B0260008A9AF /* 产品详情-和风抹茶栗子-1@2x.png in Resources */,
 				A50B55721CED9AF200AA58D5 /* 极地牛乳@2x.png in Resources */,
+				A5F6322C1CF3E53E00A9CD0A /* 果味缤纷_么么哒香芒@2x.png in Resources */,
 				5F39D74F1CF1B0260008A9AF /* 产品详情-蓝妃儿-2@2x.png in Resources */,
 				5F39D7421CF1B0260008A9AF /* 产品详情-巧克力石板街-2@2x.png in Resources */,
+				A5F6322E1CF3E53E00A9CD0A /* 果味缤纷_title@2x.png in Resources */,
 				5F39D7431CF1B0260008A9AF /* 产品详情-巧克力石板街-1@2x.png in Resources */,
+				A5F6322F1CF3E53E00A9CD0A /* 浓情芝士_莱茵河莓妖精@2x.png in Resources */,
 				5F39D74B1CF1B0260008A9AF /* 产品详情-极地牛乳-1@2x.png in Resources */,
 				5F4154491CECBDE800604E56 /* shopCart_unselect@2x.png in Resources */,
 				5F39D74C1CF1B0260008A9AF /* 产品详情-极地牛乳-2@2x.png in Resources */,
@@ -659,17 +751,25 @@
 				5F39D7511CF1B0260008A9AF /* 产品详情-金牌拿破仑-1@2x.png in Resources */,
 				5F39D7381CF1B0260008A9AF /* xiangqing@2x.png in Resources */,
 				5F39D7531CF1B0260008A9AF /* 产品详情-金牌拿破仑-3@2x.png in Resources */,
+				A5F632361CF3E53E00A9CD0A /* 舞动巧克力_title@2x.png in Resources */,
 				5F39D7471CF1B0260008A9AF /* 产品详情-情定爱情海-3@2x.png in Resources */,
 				A50B55701CED9AF200AA58D5 /* 奥利奥雪域芝士牛乳@2x.png in Resources */,
 				5F4154461CECBDE800604E56 /* mine_select@2x.png in Resources */,
+				A5F632371CF3E53E00A9CD0A /* 醇香奶油_情定爱情海@2x.png in Resources */,
+				A5F6322D1CF3E53E00A9CD0A /* 果味缤纷_蓝妃儿@2x.png in Resources */,
 				5F39D73F1CF1B0260008A9AF /* 产品详情-奥利奥雪域-1@2x.png in Resources */,
+				A5F632381CF3E53E00A9CD0A /* 醇香奶油_title@2x.png in Resources */,
+				A5F632311CF3E53E00A9CD0A /* 浓情芝士_奥利奥雪域3@2x.png in Resources */,
 				A5A508A71CF2D6DC0030127F /* cheese@2x.png in Resources */,
+				A5F632331CF3E53E00A9CD0A /* 舞动巧克力_慕尼黑巧克力@2x.png in Resources */,
+				A5F632341CF3E53E00A9CD0A /* 舞动巧克力_巧克力石板街@2x.png in Resources */,
 				5F41544A1CECBDE800604E56 /* shopCart_select@2x.png in Resources */,
 				5F39D74D1CF1B0260008A9AF /* 产品详情-极地牛乳-3@2x.png in Resources */,
 				5F4154481CECBDE800604E56 /* recommend_select@2x.png in Resources */,
 				A5F888FA1CEC4A3D0006AD8A /* Assets.xcassets in Resources */,
 				A5A508A81CF2D6DC0030127F /* chocolate@2x.png in Resources */,
 				A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */,
+				A5F632351CF3E53E00A9CD0A /* 舞动巧克力_松露巧克力@2x.png in Resources */,
 				5F39D7491CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-2@2x.png in Resources */,
 				5F39D7351CF1B0260008A9AF /* jia@2x.png in Resources */,
 				A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */,
@@ -682,6 +782,7 @@
 				5F39D7481CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-1@2x.png in Resources */,
 				5F39D7371CF1B0260008A9AF /* jiarugouwuche@2x.png in Resources */,
 				A5A508A31CF2D6DC0030127F /* 列表-1@2x.png in Resources */,
+				A5F632301CF3E53E00A9CD0A /* 浓情芝士_极地牛乳@2x.png in Resources */,
 				A5A508A61CF2D6DC0030127F /* 列表-4@2x.png in Resources */,
 				5F39D7501CF1B0260008A9AF /* 产品详情-蓝妃儿-3@2x.png in Resources */,
 				A5A508AA1CF2D6DC0030127F /* milk@2x.png in Resources */,
@@ -700,6 +801,7 @@
 				5F39D74E1CF1B0260008A9AF /* 产品详情-蓝妃儿-1@2x.png in Resources */,
 				5F39D7451CF1B0260008A9AF /* 产品详情-情定爱情海-1@2x.png in Resources */,
 				5F39D7391CF1B0260008A9AF /* 产品详情-么么哒香芒-1@2x.png in Resources */,
+				A5F632321CF3E53E00A9CD0A /* 浓情芝士_title@2x.png in Resources */,
 				A5A508A91CF2D6DC0030127F /* fruit@2x.png in Resources */,
 				5F39D74A1CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-3@2x.png in Resources */,
 				5F39D7521CF1B0260008A9AF /* 产品详情-金牌拿破仑-2@2x.png in Resources */,
@@ -726,8 +828,10 @@
 				5F4154161CECAC5900604E56 /* UserInfoVC.m in Sources */,
 				A50B55761CED9E5900AA58D5 /* TypeOneCell.m in Sources */,
 				A50B55791CED9E9B00AA58D5 /* TypeTwoCell.m in Sources */,
+				A5F6323E1CF3EBB800A9CD0A /* ListCell.m in Sources */,
 				A5F888EC1CEC4A3D0006AD8A /* main.m in Sources */,
 				5F4154131CECABA300604E56 /* ShopCartVC.m in Sources */,
+				A5F6323B1CF3E6C000A9CD0A /* CakeTableVC.m in Sources */,
 				5F41540D1CECAB5C00604E56 /* RecommendVC.m in Sources */,
 				A5A508B01CF2E2D60030127F /* MallTwoCell.m in Sources */,
 			);
