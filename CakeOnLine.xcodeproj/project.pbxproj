@@ -62,6 +62,7 @@
 		A50B55761CED9E5900AA58D5 /* TypeOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B55751CED9E5900AA58D5 /* TypeOneCell.m */; };
 		A50B55791CED9E9B00AA58D5 /* TypeTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B55781CED9E9B00AA58D5 /* TypeTwoCell.m */; };
 		A50B557C1CED9EB000AA58D5 /* TypeThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B557B1CED9EB000AA58D5 /* TypeThreeCell.m */; };
+		A51040C91CF5CB4F00015352 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A51040C81CF5CB4F00015352 /* Default@2x.png */; };
 		A512EF801CEF284E00515F44 /* CommonNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A512EF7F1CEF284E00515F44 /* CommonNavigationVC.m */; };
 		A512EF831CEF2DDB00515F44 /* CakeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A512EF821CEF2DDB00515F44 /* CakeDetailVC.m */; };
 		A55CC1911CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1861CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png */; };
@@ -99,6 +100,7 @@
 		A55CC1DA1CF5ABBB007957F6 /* 收货地址@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1D91CF5ABBB007957F6 /* 收货地址@2x.png */; };
 		A55CC1DC1CF5AC0E007957F6 /* 退出@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1DB1CF5AC0E007957F6 /* 退出@2x.png */; };
 		A55CC1DF1CF5AD0B007957F6 /* SignOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CC1DE1CF5AD0B007957F6 /* SignOutView.m */; };
+		A55CC1E11CF5C610007957F6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1E01CF5C610007957F6 /* icon.png */; };
 		A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE971CEDCE1100A2DE4E /* location@2x.png */; };
 		A597FE9A1CEDCE1100A2DE4E /* signIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE981CEDCE1100A2DE4E /* signIn@2x.png */; };
 		A5A508A21CF2D6DC0030127F /* 刀叉@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508981CF2D6DC0030127F /* 刀叉@2x.png */; };
@@ -200,6 +202,7 @@
 		A50B55781CED9E9B00AA58D5 /* TypeTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTwoCell.m; sourceTree = "<group>"; };
 		A50B557A1CED9EB000AA58D5 /* TypeThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeThreeCell.h; sourceTree = "<group>"; };
 		A50B557B1CED9EB000AA58D5 /* TypeThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeThreeCell.m; sourceTree = "<group>"; };
+		A51040C81CF5CB4F00015352 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A512EF7E1CEF284E00515F44 /* CommonNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonNavigationVC.h; sourceTree = "<group>"; };
 		A512EF7F1CEF284E00515F44 /* CommonNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNavigationVC.m; sourceTree = "<group>"; };
 		A512EF811CEF2DDB00515F44 /* CakeDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CakeDetailVC.h; sourceTree = "<group>"; };
@@ -247,6 +250,7 @@
 		A55CC1DB1CF5AC0E007957F6 /* 退出@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出@2x.png"; sourceTree = "<group>"; };
 		A55CC1DD1CF5AD0B007957F6 /* SignOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignOutView.h; sourceTree = "<group>"; };
 		A55CC1DE1CF5AD0B007957F6 /* SignOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignOutView.m; sourceTree = "<group>"; };
+		A55CC1E01CF5C610007957F6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		A597FE971CEDCE1100A2DE4E /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
 		A597FE981CEDCE1100A2DE4E /* signIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signIn@2x.png"; sourceTree = "<group>"; };
 		A5A508981CF2D6DC0030127F /* 刀叉@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刀叉@2x.png"; sourceTree = "<group>"; };
@@ -429,6 +433,8 @@
 		5F4154171CECB54A00604E56 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A51040C81CF5CB4F00015352 /* Default@2x.png */,
+				A55CC1E01CF5C610007957F6 /* icon.png */,
 				A55CC1DB1CF5AC0E007957F6 /* 退出@2x.png */,
 				A55CC1D91CF5ABBB007957F6 /* 收货地址@2x.png */,
 				A55CC1D51CF5A8FB007957F6 /* 退出登陆@2x.png */,
@@ -917,6 +923,7 @@
 				5F39D73F1CF1B0260008A9AF /* 产品详情-奥利奥雪域-1@2x.png in Resources */,
 				A55CC1C31CF59F63007957F6 /* 分享贝思客@2x.png in Resources */,
 				A5F632381CF3E53E00A9CD0A /* 醇香奶油_title@2x.png in Resources */,
+				A51040C91CF5CB4F00015352 /* Default@2x.png in Resources */,
 				A5F632311CF3E53E00A9CD0A /* 浓情芝士_奥利奥雪域3@2x.png in Resources */,
 				A5A508A71CF2D6DC0030127F /* cheese@2x.png in Resources */,
 				A5F632331CF3E53E00A9CD0A /* 舞动巧克力_慕尼黑巧克力@2x.png in Resources */,
@@ -966,6 +973,7 @@
 				5F39D7401CF1B0260008A9AF /* 产品详情-奥利奥雪域-2@2x.png in Resources */,
 				5F4154441CECBDE800604E56 /* mall_select@2x.png in Resources */,
 				5F39D7591CF1E2D70008A9AF /* 产品详情-香草泡芙-2@2x.png in Resources */,
+				A55CC1E11CF5C610007957F6 /* icon.png in Resources */,
 				5F39D73B1CF1B0260008A9AF /* 产品详情-么么哒香芒-3@2x.png in Resources */,
 				A55CC1911CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png in Resources */,
 				A50B55711CED9AF200AA58D5 /* 恋上莓@2x.png in Resources */,
@@ -1137,6 +1145,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = CakeOnLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aido.sys.CakeOnLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1149,6 +1158,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = CakeOnLine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aido.sys.CakeOnLine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
