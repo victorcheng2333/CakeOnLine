@@ -698,7 +698,7 @@
                                             <constraint firstAttribute="height" constant="64" id="hde-tz-UFn"/>
                                         </constraints>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" red="0.19607843137254902" green="0.19607843137254902" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ey-VC-Aai">
@@ -707,7 +707,7 @@
                                             <constraint firstAttribute="height" constant="64" id="cxq-sv-u8h"/>
                                         </constraints>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="couponBtnClicked:" destination="xOL-Th-cFm" eventType="touchUpInside" id="vAH-zL-gJT"/>
@@ -719,7 +719,7 @@
                                             <constraint firstAttribute="height" constant="64" id="wuT-Ne-z9y"/>
                                         </constraints>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                 </subviews>
