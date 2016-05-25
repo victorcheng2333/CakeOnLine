@@ -36,7 +36,7 @@
         _closeBtn.frame = CGRectMake(imageBtn.frame.size.width-40, 0, 40, 40);
         [_closeBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_closeBtn setSelected:NO];
-        [_closeBtn setTitle:@"关闭" forState:UIControlStateNormal];
+        [_closeBtn setImage:[UIImage imageNamed:@"closeIcon"] forState:UIControlStateNormal];
         [_closeBtn addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
         [imageBtn addSubview:_closeBtn];
     }
