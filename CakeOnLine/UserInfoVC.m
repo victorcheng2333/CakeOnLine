@@ -9,10 +9,12 @@
 #import "UserInfoVC.h"
 #import "SettingVC.h"
 #import "VCWithImageView.h"
-@interface UserInfoVC ()
+#import "SignOutView.h"
+@interface UserInfoVC ()<SignOutViewDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *button1;
 @property (weak, nonatomic) IBOutlet UIButton *button2;
 @property (weak, nonatomic) IBOutlet UIButton *button3;
+@property (nonatomic, strong) SignOutView *signOutView;
 
 @end
 
@@ -51,6 +53,32 @@
     [super didReceiveMemoryWarning];
     
 }
+- (IBAction)addressBtnClicked:(id)sender {
+    VCWithImageView *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"VCWithImageView"];
+    vc.titleString = @"收货地址";
+    vc.imageName = @"收货地址";
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
+- (IBAction)signOutBtnClicked:(id)sender {
+    _signOutView= [[SignOutView alloc] initWithFrame:[UIScreen mainScreen].bounds imageName:@"退出"];
+    _signOutView.hidden = NO;
+    _signOutView.delegate = self;
+    [[UIApplication sharedApplication].keyWindow addSubview:_signOutView];
+    _signOutView.alpha = 0;
+    
+    [UIView animateWithDuration:0.6 animations:^{
+        _signOutView.alpha = 1;
+    }];
+}
+- (void)signOutViewClose {
+    
+    [UIView animateWithDuration:0.6 animations:^{
+        _signOutView.alpha = 0;
+    } completion:^(BOOL finished) {
+        _signOutView.hidden = YES;
+    }];
+    
+}
 
 @end
