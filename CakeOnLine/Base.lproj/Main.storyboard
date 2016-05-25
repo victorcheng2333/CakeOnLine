@@ -98,6 +98,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILx-ao-VEB" userLabel="signInBtn">
                                                     <rect key="frame" x="293" y="48" width="82" height="31"/>
                                                     <state key="normal" image="signIn.png"/>
+                                                    <connections>
+                                                        <action selector="signBtnClicked:" destination="eLO-oO-zav" eventType="touchUpInside" id="qO9-pW-lIN"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>

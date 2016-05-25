@@ -75,6 +75,9 @@
 		A55CC1991CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1901CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png */; };
 		A55CC19F1CF44890007957F6 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CC19E1CF44890007957F6 /* DetailView.m */; };
 		A55CC1A21CF45936007957F6 /* LocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CC1A11CF45936007957F6 /* LocationVC.m */; };
+		A55CC1A51CF535E5007957F6 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55CC1A41CF535E5007957F6 /* SignInView.m */; };
+		A55CC1A81CF53795007957F6 /* 签到_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1A61CF53795007957F6 /* 签到_1@2x.png */; };
+		A55CC1A91CF53795007957F6 /* 签到_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1A71CF53795007957F6 /* 签到_2@2x.png */; };
 		A597FE991CEDCE1100A2DE4E /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE971CEDCE1100A2DE4E /* location@2x.png */; };
 		A597FE9A1CEDCE1100A2DE4E /* signIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A597FE981CEDCE1100A2DE4E /* signIn@2x.png */; };
 		A5A508A21CF2D6DC0030127F /* 刀叉@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A508981CF2D6DC0030127F /* 刀叉@2x.png */; };
@@ -193,6 +196,10 @@
 		A55CC19E1CF44890007957F6 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
 		A55CC1A01CF45936007957F6 /* LocationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationVC.h; sourceTree = "<group>"; };
 		A55CC1A11CF45936007957F6 /* LocationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationVC.m; sourceTree = "<group>"; };
+		A55CC1A31CF535E5007957F6 /* SignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInView.h; sourceTree = "<group>"; };
+		A55CC1A41CF535E5007957F6 /* SignInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInView.m; sourceTree = "<group>"; };
+		A55CC1A61CF53795007957F6 /* 签到_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "签到_1@2x.png"; sourceTree = "<group>"; };
+		A55CC1A71CF53795007957F6 /* 签到_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "签到_2@2x.png"; sourceTree = "<group>"; };
 		A597FE971CEDCE1100A2DE4E /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
 		A597FE981CEDCE1100A2DE4E /* signIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signIn@2x.png"; sourceTree = "<group>"; };
 		A5A508981CF2D6DC0030127F /* 刀叉@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刀叉@2x.png"; sourceTree = "<group>"; };
@@ -402,6 +409,8 @@
 		A50B55691CED9AF200AA58D5 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				A55CC1A61CF53795007957F6 /* 签到_1@2x.png */,
+				A55CC1A71CF53795007957F6 /* 签到_2@2x.png */,
 				A597FE971CEDCE1100A2DE4E /* location@2x.png */,
 				A597FE981CEDCE1100A2DE4E /* signIn@2x.png */,
 				A50B556A1CED9AF200AA58D5 /* 冬日暖心@2x.png */,
@@ -657,6 +666,8 @@
 				A50B557B1CED9EB000AA58D5 /* TypeThreeCell.m */,
 				A55CC19D1CF44890007957F6 /* DetailView.h */,
 				A55CC19E1CF44890007957F6 /* DetailView.m */,
+				A55CC1A31CF535E5007957F6 /* SignInView.h */,
+				A55CC1A41CF535E5007957F6 /* SignInView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -832,6 +843,7 @@
 				A5F888FA1CEC4A3D0006AD8A /* Assets.xcassets in Resources */,
 				A55CC1991CF44155007957F6 /* 产品详情-不莱梅漫想曲-3@2x.png in Resources */,
 				A5A508A81CF2D6DC0030127F /* chocolate@2x.png in Resources */,
+				A55CC1A81CF53795007957F6 /* 签到_1@2x.png in Resources */,
 				A5F888F81CEC4A3D0006AD8A /* Main.storyboard in Resources */,
 				A5F632351CF3E53E00A9CD0A /* 舞动巧克力_松露巧克力@2x.png in Resources */,
 				5F39D7491CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-2@2x.png in Resources */,
@@ -847,6 +859,7 @@
 				5F39D7481CF1B0260008A9AF /* 产品详情-慕尼黑巧克力-1@2x.png in Resources */,
 				A55CC1951CF44155007957F6 /* 产品详情-莱茵河莓妖精-2@2x.png in Resources */,
 				5F39D7371CF1B0260008A9AF /* jiarugouwuche@2x.png in Resources */,
+				A55CC1A91CF53795007957F6 /* 签到_2@2x.png in Resources */,
 				A5A508A31CF2D6DC0030127F /* 列表-1@2x.png in Resources */,
 				A5F632301CF3E53E00A9CD0A /* 浓情芝士_极地牛乳@2x.png in Resources */,
 				A5A508A61CF2D6DC0030127F /* 列表-4@2x.png in Resources */,
@@ -905,6 +918,7 @@
 				5F4154131CECABA300604E56 /* ShopCartVC.m in Sources */,
 				A5F6323B1CF3E6C000A9CD0A /* CakeTableVC.m in Sources */,
 				5F41540D1CECAB5C00604E56 /* RecommendVC.m in Sources */,
+				A55CC1A51CF535E5007957F6 /* SignInView.m in Sources */,
 				A5A508B01CF2E2D60030127F /* MallTwoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

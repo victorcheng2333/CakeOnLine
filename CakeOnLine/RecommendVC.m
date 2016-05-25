@@ -13,11 +13,13 @@
 #import "CakeDetailVC.h"
 #import "CakeModel.h"
 #import "LocationVC.h"
-@interface RecommendVC () <UITableViewDelegate, UITableViewDataSource, TypeThreeCellDelegate>
+#import "SignInView.h"
+@interface RecommendVC () <UITableViewDelegate, UITableViewDataSource, TypeThreeCellDelegate, SignInViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *typeTwoArray;
 @property (nonatomic, strong) NSArray *cakesArray;
 @property (nonatomic, strong) NSMutableArray *cakesModelArray;
+@property (nonatomic, strong) SignInView *signInView;
 @end
 
 @implementation RecommendVC
@@ -64,6 +66,15 @@
 - (IBAction)locationBtnClicked:(id)sender {
     LocationVC *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"LocationVC"];
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)signBtnClicked:(id)sender {
+    _signInView = [[SignInView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _signInView.delegate = self;
+    [[UIApplication sharedApplication].keyWindow addSubview:_signInView];
+    _signInView.alpha = 0;
+    [UIView animateWithDuration:0.6 animations:^{
+        _signInView.alpha = 1;
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -134,4 +145,13 @@
     detailVC.identifier = identifier;
     [self.navigationController pushViewController:detailVC animated:YES];
 }
+
+- (void)signInViewDelegateClose {
+    [UIView animateWithDuration:0.6 animations:^{
+        _signInView.alpha = 0;
+    } completion:^(BOOL finished) {
+        _signInView.hidden = YES;
+    }];
+}
+
 @end
