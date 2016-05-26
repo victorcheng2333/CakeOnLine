@@ -8,10 +8,12 @@
 
 #import "CakeDetailVC.h"
 #import "DetailView.h"
-@interface CakeDetailVC ()<DetailViewDelegate>
+@interface CakeDetailVC ()<DetailViewDelegate, UIScrollViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UIImageView *buyImageView;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, strong) DetailView *detailView;
+@property (nonatomic, assign) CGFloat offset;
 @end
 
 @implementation CakeDetailVC
@@ -40,7 +42,9 @@
     imageView.image = detailImage;
     
     [self.scrollView addSubview:imageView];
-
+    
+    self.scrollView.delegate = self;
+    _offset = 0;
 }
 
 
@@ -63,8 +67,34 @@
     } completion:^(BOOL finished) {
         _detailView.hidden = YES;
     }];
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    CGFloat currentOffset = scrollView.contentOffset.y;
+    if (currentOffset > _offset) {
+        if (_buyImageView.isHidden == NO) {
+            _buyImageView.alpha = 1;
+            [UIView animateWithDuration:0.4 animations:^{
+                _buyImageView.alpha = 0;
+            } completion:^(BOOL finished) {
+                _buyImageView.hidden = YES;
+            }];
+        }
+    } else {
+        if (_buyImageView.isHidden == YES) {
+            _buyImageView.alpha = 0;
+            _buyImageView.hidden = NO;
+            [UIView animateWithDuration:0.4 animations:^{
+                _buyImageView.alpha = 1;
+            } completion:^(BOOL finished) {
+            }];
+            
+        }
+    }
+    _offset = currentOffset;
     
 }
+
 
 
 - (void)didReceiveMemoryWarning {

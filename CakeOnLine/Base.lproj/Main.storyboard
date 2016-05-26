@@ -43,7 +43,7 @@
                                             <rect key="frame" x="15" y="0.0" width="345" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -303,6 +303,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiarugouwuche.png" translatesAutoresizingMaskIntoConstraints="NO" id="vdi-eF-m9W">
+                                <rect key="frame" x="0.0" y="497" width="375" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="q34-Z8-IEv"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pij-2g-DI6">
                                 <rect key="frame" x="321" y="450" width="44" height="44"/>
                                 <constraints>
@@ -321,8 +327,11 @@
                             <constraint firstAttribute="trailing" secondItem="GN0-Gv-PSe" secondAttribute="trailing" id="7mT-BG-wuS"/>
                             <constraint firstItem="GN0-Gv-PSe" firstAttribute="top" secondItem="6I0-TU-MNs" secondAttribute="top" id="H7C-N6-26R"/>
                             <constraint firstItem="GN0-Gv-PSe" firstAttribute="leading" secondItem="6I0-TU-MNs" secondAttribute="leading" id="UKH-wd-Z11"/>
+                            <constraint firstAttribute="bottom" secondItem="vdi-eF-m9W" secondAttribute="bottom" id="Xwh-a4-eLc"/>
                             <constraint firstAttribute="bottom" secondItem="GN0-Gv-PSe" secondAttribute="bottom" id="hT2-tY-aBh"/>
+                            <constraint firstItem="vdi-eF-m9W" firstAttribute="leading" secondItem="6I0-TU-MNs" secondAttribute="leading" id="jv1-hb-aEc"/>
                             <constraint firstItem="Gt8-cZ-pZL" firstAttribute="top" secondItem="GN0-Gv-PSe" secondAttribute="bottom" id="mLy-oB-Y1V"/>
+                            <constraint firstAttribute="trailing" secondItem="vdi-eF-m9W" secondAttribute="trailing" id="orj-9P-8rq"/>
                             <constraint firstItem="Pij-2g-DI6" firstAttribute="top" secondItem="g6Q-nJ-Gn1" secondAttribute="bottom" constant="430" id="yz6-UK-UpF"/>
                             <constraint firstAttribute="trailing" secondItem="Pij-2g-DI6" secondAttribute="trailing" constant="10" id="zDB-zx-h0C"/>
                         </constraints>
@@ -334,6 +343,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="buyImageView" destination="vdi-eF-m9W" id="ySP-IZ-40u"/>
                         <outlet property="scrollView" destination="GN0-Gv-PSe" id="Yti-1l-FB4"/>
                     </connections>
                 </viewController>
@@ -948,6 +958,7 @@
         <image name="cheese.png" width="52" height="51"/>
         <image name="chocolate.png" width="56" height="48"/>
         <image name="fruit.png" width="45" height="63"/>
+        <image name="jiarugouwuche.png" width="750" height="338"/>
         <image name="location.png" width="82" height="31"/>
         <image name="milk.png" width="45" height="56"/>
         <image name="signIn.png" width="82" height="31"/>

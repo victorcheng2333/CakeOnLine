@@ -65,6 +65,7 @@
 		A51040C91CF5CB4F00015352 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A51040C81CF5CB4F00015352 /* Default@2x.png */; };
 		A512EF801CEF284E00515F44 /* CommonNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A512EF7F1CEF284E00515F44 /* CommonNavigationVC.m */; };
 		A512EF831CEF2DDB00515F44 /* CakeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A512EF821CEF2DDB00515F44 /* CakeDetailVC.m */; };
+		A521F47C1CF7198E00BE992C /* jiarugouwuche.png in Resources */ = {isa = PBXBuildFile; fileRef = A521F47B1CF7198E00BE992C /* jiarugouwuche.png */; };
 		A55CC1911CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1861CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png */; };
 		A55CC1921CF44155007957F6 /* 产品详情-松露巧克力-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1871CF44155007957F6 /* 产品详情-松露巧克力-3@2x.png */; };
 		A55CC1931CF44155007957F6 /* 产品详情-松露巧克力-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55CC1881CF44155007957F6 /* 产品详情-松露巧克力-2@2x.png */; };
@@ -207,6 +208,7 @@
 		A512EF7F1CEF284E00515F44 /* CommonNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNavigationVC.m; sourceTree = "<group>"; };
 		A512EF811CEF2DDB00515F44 /* CakeDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CakeDetailVC.h; sourceTree = "<group>"; };
 		A512EF821CEF2DDB00515F44 /* CakeDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CakeDetailVC.m; sourceTree = "<group>"; };
+		A521F47B1CF7198E00BE992C /* jiarugouwuche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiarugouwuche.png; sourceTree = "<group>"; };
 		A55CC1861CF44155007957F6 /* 产品详情-松露巧克力-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-松露巧克力-1@2x.png"; sourceTree = "<group>"; };
 		A55CC1871CF44155007957F6 /* 产品详情-松露巧克力-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-松露巧克力-3@2x.png"; sourceTree = "<group>"; };
 		A55CC1881CF44155007957F6 /* 产品详情-松露巧克力-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "产品详情-松露巧克力-2@2x.png"; sourceTree = "<group>"; };
@@ -433,6 +435,7 @@
 		5F4154171CECB54A00604E56 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A521F47B1CF7198E00BE992C /* jiarugouwuche.png */,
 				A51040C81CF5CB4F00015352 /* Default@2x.png */,
 				A55CC1E01CF5C610007957F6 /* icon.png */,
 				A55CC1DB1CF5AC0E007957F6 /* 退出@2x.png */,
@@ -906,6 +909,7 @@
 				5F39D7431CF1B0260008A9AF /* 产品详情-巧克力石板街-1@2x.png in Resources */,
 				A5F6322F1CF3E53E00A9CD0A /* 浓情芝士_莱茵河莓妖精@2x.png in Resources */,
 				5F39D74B1CF1B0260008A9AF /* 产品详情-极地牛乳-1@2x.png in Resources */,
+				A521F47C1CF7198E00BE992C /* jiarugouwuche.png in Resources */,
 				5F4154491CECBDE800604E56 /* shopCart_unselect@2x.png in Resources */,
 				5F39D74C1CF1B0260008A9AF /* 产品详情-极地牛乳-2@2x.png in Resources */,
 				A597FE9A1CEDCE1100A2DE4E /* signIn@2x.png in Resources */,
